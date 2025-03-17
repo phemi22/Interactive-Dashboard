@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+html.dark {
+  background-color: #1a202c;
+  color: white;
+}
+
+html.light {
+  background-color: white;
+  color: black;
+}
+
+.dark .bg-white {
+  background-color: #2d3748;
+}
+
+.dark .text-gray-800 {
+  color: white;
+}
+
+.dark .bg-gray-800 {
+  background-color: #1a202c;
+}
